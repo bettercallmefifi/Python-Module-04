@@ -5,6 +5,7 @@ def main() -> None:
     print("=== CYBER ARCHIVES - COMMUNICATION SYSTEM ===")
     archivist_id = input("Input Stream active. Enter archivist ID: ")
     status_report = input("Input Stream active. Enter status report: ")
+    print()
 
     sys.stdout.write(
         f"[STANDARD] Archive status from {archivist_id}: {status_report}\n"
@@ -15,6 +16,8 @@ def main() -> None:
     )
 
     sys.stdout.write("[STANDARD] Data transmission complete\n")
+    print()
+
     print("Three-channed communication test successful.")
 
 
